@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, Arial, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#root {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.product-wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+.page-title {
+    font-size: 3rem;
+    color: lightblue;
+    font-weight: 500;
+    margin: 2rem 0;
+}
+
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+
+.form-body {
+    padding: 5rem 2rem;
+}
